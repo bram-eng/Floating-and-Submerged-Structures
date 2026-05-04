@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+seaborn>=0.12
+
+# Jupyter notebooks
+notebook>=7.0
+ipykernel>=6.0
+
+# Optional – enhanced EVA / statistics
+lmfit>=1.2        # Non-linear least-squares fitting
+statsmodels>=0.14 # Additional statistical tests

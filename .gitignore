@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large raw data – add selectively)
+# Chapter1_MetOcean/data/*.nc
+# Keep the data/README.md but ignore generated CSV files
+Chapter1_MetOcean/data/*.csv
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated figures (produced by running the analysis scripts)
+Chapter1_MetOcean/figures/
